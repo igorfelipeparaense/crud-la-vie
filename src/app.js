@@ -13,7 +13,7 @@ app.use(requestLog);
 app.use(routes);
 app.use(erroValidacao);
 
-app.use('/', express.static(path.resolve(__dirname, '..', 'docs',)));
+app.use('./', express.static(path.resolve(__dirname, '..', 'docs',)));
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
