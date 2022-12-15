@@ -2,7 +2,7 @@
   CRUD Clinica La Vie.
 </h3>
 
-## <a href="https://crud-la-vie.vercel.app/" target="_blank">Link da API</a>
+## <a href="https://crud-la-vie.vercel.app/docs" target="_blank">Link da API</a>
 
 ## :bulb: Ideia do Projeto
 
